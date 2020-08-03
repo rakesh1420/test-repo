@@ -1,0 +1,5 @@
+---
+- name: install the tree
+  apt: 
+   name: tree
+   state: latest
